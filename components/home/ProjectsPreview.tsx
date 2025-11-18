@@ -15,14 +15,14 @@ const featuredProjects = [
     image: '/silence-in-the-c-dral.jpg',
     excerpt: 'Interactive audio narrative blending traditional Saharan music with sci-fi storytelling.',
     slug: 'silence-in-the-c-dral',
-    tags: ['Music', 'Featured' ],
+    tags: ['Music', 'Video' ],
   },
   {
     title: 'EMBLEM BLEM',
     image: '/emblem-blem.jpg',
     excerpt: 'Coastal surf-roaming adventure game set in a near-future East African paradise.',
     slug: 'emblem-blem',
-    tags: ['Music', 'Video', 'Featured' ],
+    tags: ['Music', 'Video' ],
   },
 ];
 
