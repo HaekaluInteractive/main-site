@@ -55,8 +55,8 @@ export default function FeaturedArtist() {
 
             <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
               Featured in <span className="text-gold font-semibold">The Guardian</span>,{' '}
-              <span className="text-gold font-semibold">Metal Hammer</span>, and{' '}
-              <span className="text-gold font-semibold">The Wire</span>. Music used in Cyberpunk 2077.
+              <span className="text-gold font-semibold">Metal Hammer</span>, {' '}
+              <span className="text-gold font-semibold">The Wire</span>, <span className="text-gold font-semibold">BBC</span>, <span className="text-gold font-semibold">Pitchfork</span>  and more. Music used in Cyberpunk 2077.
             </p>
           </div>
 
@@ -70,6 +70,12 @@ export default function FeaturedArtist() {
             </span>
             <span className="inline-flex items-center px-4 py-2 bg-indigo/50 border border-gold/30 rounded-full text-sm font-display font-semibold text-gold">
               The Wire
+            </span>
+            <span className="inline-flex items-center px-4 py-2 bg-indigo/50 border border-gold/30 rounded-full text-sm font-display font-semibold text-gold">
+              BBC
+            </span>
+            <span className="inline-flex items-center px-4 py-2 bg-indigo/50 border border-gold/30 rounded-full text-sm font-display font-semibold text-gold">
+              Pitchfork
             </span>
           </div>
 

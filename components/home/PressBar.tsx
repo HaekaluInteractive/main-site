@@ -3,7 +3,7 @@ export default function PressBar() {
     { name: 'The Guardian', logo: 'The_Guardian_2018.svg' },
     { name: 'The Wire', logo: 'The_Wire_magazine_logo.svg' },
     { name: 'Metal Hammer', logo: 'Metal_Hammer_logo.svg' },
-    { name: 'Cyberstreet', logo: 'Cyberpunk_2077_logo_red-white.svg' },
+    { name: 'Pitchfork', logo: 'Pitchfork_logo.svg' },
   ];
 
   return (

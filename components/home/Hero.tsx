@@ -61,10 +61,10 @@ export default function Hero() {
               <div className="absolute bottom-0 right-0 w-20 h-20 border-r-2 border-b-2 border-blue-electric opacity-60" />
 
               {/* Image Container */}
-              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
+              <div className="relative aspect-[4/4] rounded-2xl overflow-hidden">
                 {/* Placeholder */}
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo via-indigo-dark to-obsidian flex items-center justify-center">
-                  <div className="text-center space-y-4 opacity-40 h-full">
+                  <div className="text-center space-y-4 opacity-40">
                     <img className="h-full" src="dark-star.png" alt="Dark star radio"/>
                   </div>
                 </div>

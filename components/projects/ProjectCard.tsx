@@ -66,7 +66,7 @@ export default function ProjectCard({ title, excerpt, slug, image, tags }: Proje
 
           {/* CTA */}
           <div className="pt-2 flex items-center gap-2 text-gold font-display font-semibold text-sm group-hover:gap-3 transition-all duration-fast">
-            View Case Study
+            View
             <span className="text-lg">→</span>
           </div>
         </div>

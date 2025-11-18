@@ -2,7 +2,8 @@ import ArtistCard from '../../components/artists/ArtistCard'
 
 const artists = [
   { name: 'Lord Spikeheart', slug: 'lord-spikeheart', image: 'Spikeheart.webp' },
-  { name: 'Chrisman', slug: 'chrisman', image: 'Chrisman.jpg' }
+  { name: 'Chrisman', slug: 'chrisman', image: 'Chrisman.jpg' },
+  { name: 'Talpah', slug: 'talpah', image: 'Talpah.jpg' }
 ]
 
 export default function ArtistsPage(){

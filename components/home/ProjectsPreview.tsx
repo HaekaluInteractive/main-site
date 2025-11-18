@@ -4,22 +4,25 @@ import Button from '../ui/Button';
 
 const featuredProjects = [
   {
-    title: 'Cyberstreet',
-    excerpt: 'Neon-noir RPG exploring the digital underground of a futuristic Lagos. 500K+ downloads across platforms.',
-    slug: 'cyberstreet',
-    tags: ['Game', 'RPG', 'Featured'],
+    title: 'Cyberpunk 2077: 107.5 Dark Star Radio - Cyko Arctic',
+    image: '/phantom-liberty.png',
+    excerpt: 'Neon-noir RPG exploring the digital underground of a futuristic city. 10M+ downloads across platforms.',
+    slug: 'cyberpunk',
+    tags: ['Game', 'Music', 'Featured'],
   },
   {
-    title: 'Desert Echoes',
+    title: 'Silence in the C-Dral',
+    image: '/silence-in-the-c-dral.jpg',
     excerpt: 'Interactive audio narrative blending traditional Saharan music with sci-fi storytelling.',
-    slug: 'desert-echoes',
-    tags: ['Music', 'Interactive'],
+    slug: 'silence-in-the-c-dral',
+    tags: ['Music', 'Featured' ],
   },
   {
-    title: 'Kilifi Drift',
+    title: 'EMBLEM BLEM',
+    image: '/emblem-blem.jpg',
     excerpt: 'Coastal surf-roaming adventure game set in a near-future East African paradise.',
-    slug: 'kilifi-drift',
-    tags: ['Game', 'Adventure'],
+    slug: 'emblem-blem',
+    tags: ['Music', 'Video', 'Featured' ],
   },
 ];
 
