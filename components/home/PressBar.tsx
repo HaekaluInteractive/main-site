@@ -12,7 +12,7 @@ export default function PressBar() {
         {/* Featured In Label */}
         <div className="text-center mb-8">
           <p className="text-sm font-display font-bold text-slate-tech uppercase tracking-wider">
-            Featured In
+            Artists Featured In
           </p>
         </div>
 
