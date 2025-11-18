@@ -87,12 +87,12 @@ export default function StudioCTA() {
           </p>
           <div className="relative inline-block">
             <h3 className="font-display font-bold text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-blue-electric via-crimson to-blue-electric animate-shimmer bg-[length:200%_100%]">
-              CYBERSTREET
+              CYBERPUNK 2077: PHANTOM LIBERTY
             </h3>
             {/* Neon underglow */}
             <div className="absolute inset-0 blur-xl bg-gradient-to-r from-blue-electric/30 via-crimson/30 to-blue-electric/30 -z-10" />
           </div>
-          <p className="text-gray-300 mt-2">Neon-noir RPG • 500K+ Downloads</p>
+          <p className="text-gray-300 mt-2">Neon-noir RPG • 10M+ Downloads</p>
         </div>
       </div>
     </section>

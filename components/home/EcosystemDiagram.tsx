@@ -70,7 +70,7 @@ export default function EcosystemDiagram() {
               {/* Center circle */}
               <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-indigo via-obsidian to-indigo-dark border-2 border-gold flex items-center justify-center shadow-glow-gold">
                 <div className="text-center">
-                  <div className="font-display font-bold text-xl md:text-2xl text-gold mb-1">HAEKA</div>
+                  <div className="font-display font-bold text-xl md:text-2xl text-gold mb-1">HAEKALU</div>
                   <div className="text-xs text-slate-tech">Interactive</div>
                 </div>
               </div>

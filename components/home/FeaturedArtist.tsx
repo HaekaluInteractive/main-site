@@ -18,10 +18,7 @@ export default function FeaturedArtist() {
             {/* High-contrast placeholder with warm lighting effect */}
             <div className="absolute inset-0 bg-gradient-to-br from-crimson/30 via-indigo to-obsidian flex items-center justify-center">
               <div className="text-center space-y-4 opacity-30">
-                <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-crimson/40 to-gold/40" />
-                <p className="text-slate-tech text-sm px-4">
-                  Replace with<br />high-contrast portrait<br />(warm lighting)
-                </p>
+                <img src="Lord-Spikeheart.jpg" alt="Portrait of Lil Spike" />
               </div>
             </div>
 
@@ -35,7 +32,7 @@ export default function FeaturedArtist() {
           {/* Quote callout */}
           <div className="absolute -right-4 bottom-8 bg-indigo/95 backdrop-blur-sm border border-gold/30 px-4 py-3 rounded-xl shadow-glow-gold max-w-xs">
             <p className="text-xs font-display font-semibold text-gold">
-              "Featured in AAA-adjacent indie titles."
+              "Music used in highly acclaimed AAA titles."
             </p>
           </div>
         </div>
@@ -45,7 +42,7 @@ export default function FeaturedArtist() {
           {/* Artist Name */}
           <div>
             <h2 className="font-display font-bold text-5xl md:text-6xl lg:text-7xl mb-4">
-              Lil Spike
+              Lord Spikeheart
             </h2>
             <div className="h-1 w-24 bg-gradient-to-r from-gold to-transparent rounded-full" />
           </div>
@@ -59,7 +56,7 @@ export default function FeaturedArtist() {
             <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
               Featured in <span className="text-gold font-semibold">The Guardian</span>,{' '}
               <span className="text-gold font-semibold">Metal Hammer</span>, and{' '}
-              <span className="text-gold font-semibold">The Wire</span>. Music used in Cyberstreet Games.
+              <span className="text-gold font-semibold">The Wire</span>. Music used in Cyberpunk 2077.
             </p>
           </div>
 

@@ -1,9 +1,9 @@
 export default function PressBar() {
   const press = [
-    { name: 'The Guardian', logo: 'THE GUARDIAN' },
-    { name: 'The Wire', logo: 'THE WIRE' },
-    { name: 'Metal Hammer', logo: 'METAL HAMMER' },
-    { name: 'Cyberstreet', logo: 'CYBERSTREET' },
+    { name: 'The Guardian', logo: 'The_Guardian_2018.svg' },
+    { name: 'The Wire', logo: 'The_Wire_magazine_logo.svg' },
+    { name: 'Metal Hammer', logo: 'Metal_Hammer_logo.svg' },
+    { name: 'Cyberstreet', logo: 'Cyberpunk_2077_logo_red-white.svg' },
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function PressBar() {
               key={item.name}
               className="text-gray-300 font-display font-bold text-sm md:text-base opacity-60 hover:opacity-100 hover:text-gold transition-all duration-fast"
             >
-              {item.logo}
+              <img src={`/${item.logo}`} alt={item.name} className="h-8 filter invert brightness-75 transition-all duration-fast" />
             </div>
           ))}
         </div>

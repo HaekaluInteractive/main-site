@@ -29,12 +29,12 @@ export default function Header() {
 
               {/* Logo mark */}
               <div className="relative w-10 h-10 bg-gradient-to-br from-gold to-gold/80 rounded-lg flex items-center justify-center font-display font-bold text-xl text-obsidian shadow-md">
-                H
+                H/I
               </div>
             </div>
 
             <span className="font-display font-bold text-xl tracking-tight group-hover:text-gold transition-colors duration-fast">
-              HAEKA
+              HAEKALU INTERACTIVE
             </span>
           </Link>
 

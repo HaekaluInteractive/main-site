@@ -64,11 +64,8 @@ export default function Hero() {
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
                 {/* Placeholder */}
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo via-indigo-dark to-obsidian flex items-center justify-center">
-                  <div className="text-center space-y-4 opacity-40">
-                    <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-electric to-gold opacity-30" />
-                    <p className="text-slate-tech text-sm px-4">
-                      Replace with futuristic<br />profile image
-                    </p>
+                  <div className="text-center space-y-4 opacity-40 h-full">
+                    <img className="h-full" src="dark-star.png" alt="Dark star radio"/>
                   </div>
                 </div>
 
@@ -78,11 +75,11 @@ export default function Hero() {
 
               {/* Floating Stats */}
               <div className="absolute -right-4 top-1/4 bg-indigo/90 backdrop-blur-sm border border-blue-electric/40 px-4 py-2 rounded-lg shadow-glow animate-float">
-                <p className="text-xs text-blue-electric font-display font-bold">500K+ Downloads</p>
+                <p className="text-xs text-blue-electric font-display font-bold">60K+ Plays</p>
               </div>
 
               <div className="absolute -left-4 bottom-1/3 bg-indigo/90 backdrop-blur-sm border border-gold/40 px-4 py-2 rounded-lg shadow-glow-gold animate-float" style={{ animationDelay: '1s' }}>
-                <p className="text-xs text-gold font-display font-bold">15+ Artists</p>
+                <p className="text-xs text-gold font-display font-bold">Featured Artists</p>
               </div>
             </div>
           </div>

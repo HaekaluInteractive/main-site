@@ -36,9 +36,9 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-gradient-to-br from-gold to-gold/80 rounded-lg flex items-center justify-center font-display font-bold text-xl text-obsidian shadow-md">
-                H
+                H/I
               </div>
-              <span className="font-display font-bold text-2xl">HAEKA</span>
+              <span className="font-display font-bold text-2xl">HAEKALU INTERACTIVE</span>
             </div>
 
             <p className="text-gray-300 leading-relaxed max-w-md">
