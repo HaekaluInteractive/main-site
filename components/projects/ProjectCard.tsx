@@ -20,6 +20,7 @@ export default function ProjectCard({ title, excerpt, slug, image, tags }: Proje
               src={image}
               alt={title}
               fill
+              unoptimized
               className="object-cover transition-transform duration-slow group-hover:scale-105"
             />
           ) : (
