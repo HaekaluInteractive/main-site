@@ -23,7 +23,7 @@ steps:
       git init
       git config user.name "bynmz"
       git config user.email "youngmwanzia@gmail.com"
-      git remote set-url origin https://bynmz:${GIT_TOKEN}@github.com/bynmz/haeka-next.git
+      git remote set-url origin https://bynmz:${GIT_TOKEN}@github.com/HaekaluInteractive/haeka-web.git
       # add and commit /out/ folder
       git add out
       git commit -m "deploy the bundle"
