@@ -1,9 +1,9 @@
 import ProjectCard from '../../components/projects/ProjectCard'
 
 const sampleProjects = [
-  { title: 'Cyberpunk 2077: 107.5 Dark Star Radio - Cyko Arctic', excerpt: 'A neon-drenched dystopian RPG.', slug: 'cyberpunk', image: '/phantom-liberty.png' },
-  { title: 'Silence in the C-Dral', excerpt: 'A narrative-driven audio game.', slug: 'silence-in-the-c-dral', image: '/silence-in-the-c-dral.jpg' },
-  { title: 'EMBLEM BLEM', excerpt: 'An experimental surf-roamer.', slug: 'emblem-blem', image: '/emblem-blem.jpg' },
+  { title: 'Cyberpunk 2077: 107.5 Dark Star Radio - Cyko Arctic', excerpt: 'A neon-drenched dystopian RPG.', slug: 'cyberpunk', image: 'phantom-liberty.png' },
+  { title: 'Silence in the C-Dral', excerpt: 'A narrative-driven audio game.', slug: 'silence-in-the-c-dral', image: 'silence-in-the-c-dral.jpg' },
+  { title: 'EMBLEM BLEM', excerpt: 'An experimental surf-roamer.', slug: 'emblem-blem', image: 'emblem-blem.jpg' },
 ]
 
 export default function ProjectsPage() {
