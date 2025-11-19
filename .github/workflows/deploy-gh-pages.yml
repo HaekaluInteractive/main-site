@@ -21,6 +21,9 @@ jobs:
         run: npm ci
 
       - name: Build site
+        env:
+          BASE_PATH: /main-site
+          ASSET_PREFIX: /main-site
         run: npm run build
 
       - name: Deploy to gh-pages
