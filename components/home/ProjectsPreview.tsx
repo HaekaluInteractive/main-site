@@ -5,21 +5,21 @@ import Button from '../ui/Button';
 const featuredProjects = [
   {
     title: 'Cyberpunk 2077: 107.5 Dark Star Radio - Cyko Arctic',
-    image: '/phantom-liberty.png',
+    image: 'phantom-liberty.png',
     excerpt: 'Neon-noir RPG exploring the digital underground of a futuristic city. 10M+ downloads across platforms.',
     slug: 'cyberpunk',
     tags: ['Game', 'Music', 'Featured'],
   },
   {
     title: 'Silence in the C-Dral',
-    image: '/silence-in-the-c-dral.jpg',
+    image: 'silence-in-the-c-dral.jpg',
     excerpt: 'Interactive audio narrative blending traditional Saharan music with sci-fi storytelling.',
     slug: 'silence-in-the-c-dral',
     tags: ['Music', 'Video' ],
   },
   {
     title: 'EMBLEM BLEM',
-    image: '/emblem-blem.jpg',
+    image: 'emblem-blem.jpg',
     excerpt: 'Coastal surf-roaming adventure game set in a near-future East African paradise.',
     slug: 'emblem-blem',
     tags: ['Music', 'Video' ],

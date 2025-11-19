@@ -23,7 +23,7 @@ export default function PressBar() {
               key={item.name}
               className="text-gray-300 font-display font-bold text-sm md:text-base opacity-60 hover:opacity-100 hover:text-gold transition-all duration-fast"
             >
-              <img src={`/${item.logo}`} alt={item.name} className="h-8 filter invert brightness-75 transition-all duration-fast" />
+              <img src={`${item.logo}`} alt={item.name} className="h-8 filter invert brightness-75 transition-all duration-fast" />
             </div>
           ))}
         </div>
